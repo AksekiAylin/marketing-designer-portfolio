@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.522afc60.css",
+    "main.css": "/static/css/main.35346890.css",
     "main.js": "/static/js/main.50cbbdd6.js",
     "static/media/aylin.png": "/static/media/aylin.7a423a534b4383934da9.png",
     "static/media/earth.jpg": "/static/media/earth.a08c82a61f5bf923991e.jpg",
@@ -16,11 +16,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/ionicons.woff?v=2.0.0": "/static/media/ionicons.0b4ad6170d93c4aa91ee.woff",
     "index.html": "/index.html",
-    "main.522afc60.css.map": "/static/css/main.522afc60.css.map",
+    "main.35346890.css.map": "/static/css/main.35346890.css.map",
     "main.50cbbdd6.js.map": "/static/js/main.50cbbdd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.522afc60.css",
+    "static/css/main.35346890.css",
     "static/js/main.50cbbdd6.js"
   ]
 }
