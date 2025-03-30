@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.35346890.css",
-    "main.js": "/static/js/main.50cbbdd6.js",
-    "static/media/aylin.png": "/static/media/aylin.7a423a534b4383934da9.png",
-    "static/media/earth.jpg": "/static/media/earth.a08c82a61f5bf923991e.jpg",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/femaleTransparent.png": "/static/media/femaleTransparent.a41f9508de5c619560b0.png",
-    "static/media/ionicons.svg?v=2.0.0": "/static/media/ionicons.b45d332f6829d6813600.svg",
-    "static/media/ionicons.ttf?v=2.0.0": "/static/media/ionicons.1fa6a1e8581aaedf7344.ttf",
-    "static/media/female.png": "/static/media/female.0dc6ccc4c875cae7b70a.png",
-    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/ionicons.eot?v=2.0.0": "/static/media/ionicons.68e3a4f9a8d8c679b4ae.eot",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/ionicons.woff?v=2.0.0": "/static/media/ionicons.0b4ad6170d93c4aa91ee.woff",
-    "index.html": "/index.html",
-    "main.35346890.css.map": "/static/css/main.35346890.css.map",
-    "main.50cbbdd6.js.map": "/static/js/main.50cbbdd6.js.map"
+    "main.css": "/marketing-designer-portfolio/static/css/main.51be290a.css",
+    "main.js": "/marketing-designer-portfolio/static/js/main.548c8442.js",
+    "static/media/aylin.png": "/marketing-designer-portfolio/static/media/aylin.7a423a534b4383934da9.png",
+    "static/media/earth.jpg": "/marketing-designer-portfolio/static/media/earth.a08c82a61f5bf923991e.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/marketing-designer-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/femaleTransparent.png": "/marketing-designer-portfolio/static/media/femaleTransparent.a41f9508de5c619560b0.png",
+    "static/media/ionicons.svg?v=2.0.0": "/marketing-designer-portfolio/static/media/ionicons.b45d332f6829d6813600.svg",
+    "static/media/ionicons.ttf?v=2.0.0": "/marketing-designer-portfolio/static/media/ionicons.1fa6a1e8581aaedf7344.ttf",
+    "static/media/female.png": "/marketing-designer-portfolio/static/media/female.0dc6ccc4c875cae7b70a.png",
+    "static/media/fontawesome-webfont.eot": "/marketing-designer-portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/marketing-designer-portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/ionicons.eot?v=2.0.0": "/marketing-designer-portfolio/static/media/ionicons.68e3a4f9a8d8c679b4ae.eot",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/marketing-designer-portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/marketing-designer-portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/ionicons.woff?v=2.0.0": "/marketing-designer-portfolio/static/media/ionicons.0b4ad6170d93c4aa91ee.woff",
+    "index.html": "/marketing-designer-portfolio/index.html",
+    "main.51be290a.css.map": "/marketing-designer-portfolio/static/css/main.51be290a.css.map",
+    "main.548c8442.js.map": "/marketing-designer-portfolio/static/js/main.548c8442.js.map"
   },
   "entrypoints": [
-    "static/css/main.35346890.css",
-    "static/js/main.50cbbdd6.js"
+    "static/css/main.51be290a.css",
+    "static/js/main.548c8442.js"
   ]
 }
