@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/marketing-designer-portfolio/static/css/main.51be290a.css",
+    "main.css": "/marketing-designer-portfolio/static/css/main.430b8da6.css",
     "main.js": "/marketing-designer-portfolio/static/js/main.548c8442.js",
     "static/media/aylin.png": "/marketing-designer-portfolio/static/media/aylin.7a423a534b4383934da9.png",
     "static/media/earth.jpg": "/marketing-designer-portfolio/static/media/earth.a08c82a61f5bf923991e.jpg",
@@ -16,11 +16,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/marketing-designer-portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/ionicons.woff?v=2.0.0": "/marketing-designer-portfolio/static/media/ionicons.0b4ad6170d93c4aa91ee.woff",
     "index.html": "/marketing-designer-portfolio/index.html",
-    "main.51be290a.css.map": "/marketing-designer-portfolio/static/css/main.51be290a.css.map",
+    "main.430b8da6.css.map": "/marketing-designer-portfolio/static/css/main.430b8da6.css.map",
     "main.548c8442.js.map": "/marketing-designer-portfolio/static/js/main.548c8442.js.map"
   },
   "entrypoints": [
-    "static/css/main.51be290a.css",
+    "static/css/main.430b8da6.css",
     "static/js/main.548c8442.js"
   ]
 }
