@@ -1048,7 +1048,7 @@ BUTTON
 
 .education-item {
   position: relative;
-  padding-left: 1.5rem;
+  padding-left: 0;
   border-left: 2px solid #ff6b00;
   margin-bottom: 2.5rem;
   transition: all 0.3s ease;
@@ -1056,17 +1056,12 @@ BUTTON
 }
 
 .education-item:hover {
-  transform: translateX(10px);
+  transform: translateX(0);
 }
 
 .education-item:hover .education-logo {
   opacity: 1;
   transform: scale(1.1);
-}
-
-.title-left.text-center:before {
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .education-item h4 {
@@ -1130,7 +1125,7 @@ BUTTON
 
 .experience-item {
   position: relative;
-  padding-left: 1.5rem;
+  padding-left: 0;
   border-left: 2px solid #ff6b00;
   margin-bottom: 2.5rem;
   transition: all 0.3s ease;
@@ -1138,7 +1133,7 @@ BUTTON
 }
 
 .experience-item:hover {
-  transform: translateX(10px);
+  transform: translateX(0);
 }
 
 .experience-item:hover .company-logo {
@@ -1199,14 +1194,20 @@ BUTTON
 
 .service-item {
   position: relative;
-  padding-left: 1.5rem;
+  padding-left: 0;
   border-left: 2px solid #ff6b00;
   margin-bottom: 2.5rem;
   transition: all 0.3s ease;
+  text-align: center;
 }
 
 .service-item:hover {
-  transform: translateX(10px);
+  transform: translateX(0);
+}
+
+.service-item:hover .service-logo {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 .service-item h4 {
@@ -1225,7 +1226,7 @@ BUTTON
 /* Responsive styles for What I Do section */
 @media (max-width: 768px) {
   .service-item {
-    padding-left: 1rem;
+    padding-left: 0;
   }
 
   .service-item h4 {
@@ -1279,4 +1280,18 @@ BUTTON
 
 .navbar-b.navbar-reduce .navbar-toggler span {
   background-color: #000000; /* Scroll edildiğinde siyah */
+}
+
+/* Assuming the class for the blocks is .education-block and .experience-block */
+.education-block,
+.experience-block {
+    padding-left: 0; /* Remove left padding */
+    transition: all 0.3s ease; /* Optional: Add transition for smoothness */
+}
+
+.education-block:hover,
+.experience-block:hover {
+    /* Add any hover effects you want without changing padding */
+    background-color: #f0f0f0; /* Example hover effect */
+    /* Remove any padding or margin changes that cause movement */
 }

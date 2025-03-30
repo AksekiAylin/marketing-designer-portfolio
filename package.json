@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.aylinakseki.com",
+  "homepage": "https://aksekiaylin.github.io/marketing-designer-portfolio/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.2.0",
