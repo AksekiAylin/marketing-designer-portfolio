@@ -1,60 +1,35 @@
 import React from "react";
-import myImage from "../img/myImage.png";
+import myImage from "../img/aylin.png";
 
 class About extends React.Component {
   constructor() {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
-        {
-          id: "JavaScript_skill",
-          content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
-        },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
-        {
-          id: "ReactJS_skill",
-          content: "ReactJS",
-          porcentage: "80%",
-          value: "80"
-        },
-        {
-          id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75"
-        },
-        {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
-        },
-        {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "80%",
-          value: "80"
-        }
+        { id: "UI_skill", content: "UI Design", porcentage: "95%", value: "95" },
+        { id: "UX_skill", content: "UX Design", porcentage: "90%", value: "90" },
+        { id: "Marketing_skill", content: "Marketing Strategy", porcentage: "85%", value: "85" },
+        { id: "Branding_skill", content: "Branding", porcentage: "90%", value: "90" },
+        { id: "Adobe_skill", content: "Adobe Creative Suite", porcentage: "95%", value: "95" },
+        { id: "Figma_skill", content: "Figma", porcentage: "90%", value: "90" },
+        { id: "Social_skill", content: "Social Media Marketing", porcentage: "85%", value: "85" },
+        { id: "Content_skill", content: "Content Strategy", porcentage: "90%", value: "90" }
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I am a passionate Marketing Designer with a keen eye for creating compelling visual experiences. With expertise in UI/UX design and brand strategy, I help businesses connect with their audience through innovative and effective design solutions."
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "My approach combines creative design thinking with data-driven marketing strategies to deliver results that not only look great but also drive business growth. I specialize in creating user-centered designs that enhance brand engagement and customer experience."
         },
         {
           id: "third-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "With years of experience in the industry, I've worked with diverse clients across various sectors, helping them establish strong brand identities and create memorable marketing campaigns that resonate with their target audience."
         }
       ]
     };
@@ -79,14 +54,15 @@ class About extends React.Component {
                           style={{ textAlign: "center" }}
                         >
                           <img
+                            src={myImage}
                             className="img-fluid rounded b-shadow-a"
-                            alt=""
+                            alt="Aylin Akseki"
                           />
                         </div>
                       </div>
                     </div>
                     <div className="skill-mf">
-                      {/* <p className="title-s">Skill</p> */}
+                      <p className="title-s">Skills</p>
                       {this.state.skills.map(skill => {
                         return (
                           <React.Fragment key={skill.id}>
