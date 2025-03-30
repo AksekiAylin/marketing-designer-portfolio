@@ -23,19 +23,21 @@ import * as serviceWorker from './serviceWorker';
 import Navbar from './components/navbar.jsx';
 import Intro from './components/intro.jsx';
 import About from './components/about.jsx';
-import Portfolio from './components/portfolio.jsx';
+import Education from './components/education.jsx';
+import Experience from './components/experience.jsx';
+import WhatIDo from './components/what-i-do.jsx';
 import Contact from './components/contact.jsx';
 import BackToTop from './components/back-top.jsx';
 import Preloader from './components/preloader';
-
-
 
 ReactDOM.render(
     <React.Fragment>
         <Navbar />
         <Intro />
         <About />
-        <Portfolio />
+        <Education />
+        <Experience />
+        <WhatIDo />
         <Contact />
         <BackToTop />
         <Preloader />

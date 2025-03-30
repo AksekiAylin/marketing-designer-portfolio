@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from "../img/aylin.png";
+import femaleTransparent from "../img/femaleTransparent.png";
 
 class About extends React.Component {
   constructor() {
@@ -54,9 +54,10 @@ class About extends React.Component {
                           style={{ textAlign: "center" }}
                         >
                           <img
-                            src={myImage}
-                            className="img-fluid rounded b-shadow-a"
-                            alt="Aylin Akseki"
+                            src={femaleTransparent}
+                            className="img-fluid"
+                            alt="Design Illustration"
+                            style={{ maxWidth: "100%", height: "auto" }}
                           />
                         </div>
                       </div>

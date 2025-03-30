@@ -86,12 +86,14 @@ class Contact extends React.Component {
                               </div>
                             </div>
                             <div className="col-md-12">
-                              <button
-                                type="submit"
-                                className="button button-a button-big button-rouded"
-                              >
-                                Send Message
-                              </button>
+                              <div className="button-container">
+                                <button
+                                  type="submit"
+                                  className="button button-a button-big button-rouded"
+                                >
+                                  Send Message
+                                </button>
+                              </div>
                             </div>
                           </div>
                         </form>
