@@ -1,9 +1,15 @@
 {
   "files": {
-    "main.css": "/marketing-designer-portfolio/static/css/main.430b8da6.css",
-    "main.js": "/marketing-designer-portfolio/static/js/main.548c8442.js",
+    "main.css": "/marketing-designer-portfolio/static/css/main.abd7d17f.css",
+    "main.js": "/marketing-designer-portfolio/static/js/main.b9a85630.js",
+    "static/media/image6.jpg": "/marketing-designer-portfolio/static/media/image6.d815fbd7656922980117.jpg",
+    "static/media/image1.jpg": "/marketing-designer-portfolio/static/media/image1.e5cc538181c31600f0ed.jpg",
     "static/media/aylin.png": "/marketing-designer-portfolio/static/media/aylin.7a423a534b4383934da9.png",
+    "static/media/image2.jpg": "/marketing-designer-portfolio/static/media/image2.918e02fdfb4b98994a41.jpg",
+    "static/media/image5.jpg": "/marketing-designer-portfolio/static/media/image5.064bdceb43980a252529.jpg",
+    "static/media/image4.jpg": "/marketing-designer-portfolio/static/media/image4.0208209b2b8700cd8699.jpg",
     "static/media/earth.jpg": "/marketing-designer-portfolio/static/media/earth.a08c82a61f5bf923991e.jpg",
+    "static/media/image3.jpg": "/marketing-designer-portfolio/static/media/image3.dab09f293ac8980aaa0d.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/marketing-designer-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/femaleTransparent.png": "/marketing-designer-portfolio/static/media/femaleTransparent.a41f9508de5c619560b0.png",
     "static/media/ionicons.svg?v=2.0.0": "/marketing-designer-portfolio/static/media/ionicons.b45d332f6829d6813600.svg",
@@ -14,13 +20,14 @@
     "static/media/ionicons.eot?v=2.0.0": "/marketing-designer-portfolio/static/media/ionicons.68e3a4f9a8d8c679b4ae.eot",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/marketing-designer-portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/marketing-designer-portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/waltDisney.png": "/marketing-designer-portfolio/static/media/waltDisney.eaf6bfd9c9b744569ef6.png",
     "static/media/ionicons.woff?v=2.0.0": "/marketing-designer-portfolio/static/media/ionicons.0b4ad6170d93c4aa91ee.woff",
     "index.html": "/marketing-designer-portfolio/index.html",
-    "main.430b8da6.css.map": "/marketing-designer-portfolio/static/css/main.430b8da6.css.map",
-    "main.548c8442.js.map": "/marketing-designer-portfolio/static/js/main.548c8442.js.map"
+    "main.abd7d17f.css.map": "/marketing-designer-portfolio/static/css/main.abd7d17f.css.map",
+    "main.b9a85630.js.map": "/marketing-designer-portfolio/static/js/main.b9a85630.js.map"
   },
   "entrypoints": [
-    "static/css/main.430b8da6.css",
-    "static/js/main.548c8442.js"
+    "static/css/main.abd7d17f.css",
+    "static/js/main.b9a85630.js"
   ]
 }
