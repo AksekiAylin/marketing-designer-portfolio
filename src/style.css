@@ -1035,265 +1035,260 @@ BUTTON
   }
 }
 
-/* Education Section Styles */
-.education-content {
-  padding: 2rem 0;
-}
-
-.education-logo {
-  max-width: 80px;
-  height: auto;
+/* Education & Experience Shared Styles */
+.education-content,
+.experience-content {
+  max-width: 800px;
   margin: 0 auto;
-  opacity: 0.8;
-  transition: all 0.3s ease;
+  padding: 2rem;
 }
 
-.education-item {
-  position: relative;
-  padding-left: 0;
-  border-left: 2px solid #ff6b00;
+.education-items-container,
+.experience-items-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.education-item,
+.experience-item {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
   margin-bottom: 2.5rem;
   transition: all 0.3s ease;
-  text-align: center;
+  text-align: left;
 }
 
-.education-item:hover {
-  transform: translateX(0);
+.education-header,
+.experience-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.education-item:hover .education-logo {
-  opacity: 1;
-  transform: scale(1.1);
+.logo-container {
+  flex-shrink: 0;
+  width: 80px;
 }
 
-.education-item h4 {
+.education-logo,
+.company-logo {
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+.education-title,
+.experience-title {
+  flex-grow: 1;
+}
+
+.education-title h4,
+.experience-title h4 {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
   color: #ff6b00;
+  text-align: left;
 }
 
-.education-item h6 {
+.education-title h6,
+.experience-title h6 {
   font-size: 1rem;
   color: #666;
   margin-bottom: 0.5rem;
   font-style: italic;
+  text-align: left;
 }
 
-.education-date {
+.education-date,
+.experience-date {
   font-size: 0.9rem;
   color: #888;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   font-style: italic;
+  text-align: left;
 }
 
-.education-description {
+.education-description,
+.experience-description {
   font-size: 1rem;
   color: #4e4e4e;
   line-height: 1.6;
+  margin-bottom: 0;
+  text-align: left;
 }
 
-/* Responsive styles for Education section */
-@media (max-width: 768px) {
-  .education-item {
-    padding-left: 1rem;
-  }
-
-  .education-item h4 {
-    font-size: 1.25rem;
-  }
-
-  .education-item h6 {
-    font-size: 0.9rem;
-  }
-
-  .education-description {
-    font-size: 0.9rem;
-  }
-}
-
-/* Experience Section Styles */
-.experience-content {
-  padding: 2rem 0;
-}
-
-.company-logo {
-  max-width: 80px;
-  height: auto;
-  margin: 0 auto;
-  opacity: 0.8;
-  transition: all 0.3s ease;
-}
-
-.experience-item {
-  position: relative;
-  padding-left: 0;
-  border-left: 2px solid #ff6b00;
-  margin-bottom: 2.5rem;
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
+.education-item:hover,
 .experience-item:hover {
-  transform: translateX(0);
+  transform: translateY(-5px);
 }
 
+.education-item:hover .education-logo,
 .experience-item:hover .company-logo {
   opacity: 1;
   transform: scale(1.1);
 }
 
-.experience-item h4 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  color: #ff6b00;
-}
-
-.experience-item h6 {
-  font-size: 1rem;
-  color: #666;
-  margin-bottom: 0.5rem;
-  font-style: italic;
-}
-
-.experience-date {
-  font-size: 0.9rem;
-  color: #888;
-  margin-bottom: 0.5rem;
-  font-style: italic;
-}
-
-.experience-description {
-  font-size: 1rem;
-  color: #4e4e4e;
-  line-height: 1.6;
-}
-
-/* Responsive styles for Experience section */
+/* Responsive styles */
 @media (max-width: 768px) {
-  .experience-item {
-    padding-left: 1rem;
+  .education-content,
+  .experience-content {
+    padding: 1rem;
   }
 
-  .experience-item h4 {
+  .education-header,
+  .experience-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .logo-container {
+    width: 60px;
+  }
+
+  .education-title h4,
+  .experience-title h4 {
     font-size: 1.25rem;
+    text-align: center;
   }
 
-  .experience-item h6 {
+  .education-title h6,
+  .experience-title h6 {
     font-size: 0.9rem;
+    text-align: center;
   }
 
+  .education-date,
+  .experience-date {
+    text-align: center;
+  }
+
+  .education-description,
   .experience-description {
     font-size: 0.9rem;
+    text-align: left;
   }
 }
 
-/* What I Do Section Styles */
+/* What I Do Section */
 .what-i-do-content {
-  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 0 1rem;
 }
 
 .service-item {
-  position: relative;
-  padding-left: 0;
-  border-left: 2px solid #ff6b00;
-  margin-bottom: 2.5rem;
-  transition: all 0.3s ease;
-  text-align: center;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .service-item:hover {
-  transform: translateX(0);
-}
-
-.service-item:hover .service-logo {
-  opacity: 1;
-  transform: scale(1.1);
+  transform: translateY(-5px);
 }
 
 .service-item h4 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
   color: #ff6b00;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
 }
 
 .service-description {
-  font-size: 1rem;
   color: #4e4e4e;
   line-height: 1.6;
 }
 
-/* Responsive styles for What I Do section */
 @media (max-width: 768px) {
-  .service-item {
-    padding-left: 0;
-  }
-
-  .service-item h4 {
-    font-size: 1.25rem;
-  }
-
-  .service-description {
-    font-size: 0.9rem;
+  .what-i-do-content {
+    grid-template-columns: 1fr;
   }
 }
 
-/* Remove Portfolio styles */
-.portfolio-mf,
-.work-box {
-  display: none;
-}
-
-/* Contact form button centering */
-.button-container {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.button-container .button {
+.project-container {
+  max-width: 800px;
   margin: 0 auto;
+  padding: 1rem;
 }
 
-.navbar-b.navbar-reduce .nav-link {
-  color: #000000;
+.project-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+  height: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
 }
 
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.project-title {
+  color: #ff6b00;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.project-description {
+  color: #4e4e4e;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.project-skill {
+  background: #ffe4cc;
+  color: #ff6b00;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+/* Update title line styles to be centered */
+.title-left:before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Update navbar styles for white text when not scrolled */
 .navbar-b.navbar-trans .nav-link {
-  color: #ffffff;
-}
-
-/* Mobil modda ana sayfada navbar elemanları siyah olacak */
-@media (max-width: 768px) {
-  .navbar-b .navbar-nav .nav-link {
-    color: #000000; /* Mobil modda siyah */
-  }
-
-  .navbar-b.navbar-trans .nav-link {
-    color: #000000; /* Ana sayfada siyah */
-  }
-}
-
-/* Hamburger ikonunun rengi ana sayfada beyaz, scroll edildiğinde siyah olacak */
-.navbar-b.navbar-trans .navbar-toggler span {
-  background-color: #ffffff; /* Ana sayfada beyaz */
-}
-
-.navbar-b.navbar-reduce .navbar-toggler span {
-  background-color: #000000; /* Scroll edildiğinde siyah */
-}
-
-/* Assuming the class for the blocks is .education-block and .experience-block */
-.education-block,
-.experience-block {
-    padding-left: 0; /* Remove left padding */
-    transition: all 0.3s ease; /* Optional: Add transition for smoothness */
-}
-
-.education-block:hover,
-.experience-block:hover {
-    /* Add any hover effects you want without changing padding */
-    background-color: #f0f0f0; /* Example hover effect */
-    /* Remove any padding or margin changes that cause movement */
+  color: #fff !important;
 }

@@ -57,7 +57,7 @@ class Navbar extends React.Component {
       }
 
       // Update active section
-      const sections = ['home', 'about', 'education', 'experience', 'what-i-do', 'contact'];
+      const sections = ['home', 'about', 'education', 'experience', 'projects', 'what-i-do', 'contact'];
       let currentSection = sections[0];
       
       for (const section of sections) {
@@ -113,10 +113,7 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <nav
-        className="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
-        id="mainNav"
-      >
+      <nav className="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
         <div className="container">
           <a 
             className="navbar-brand js-scroll" 
@@ -142,10 +139,7 @@ class Navbar extends React.Component {
             <span></span>
             <span></span>
           </button>
-          <div
-            className="navbar-collapse collapse justify-content-center"
-            id="navbarDefault"
-          >
+          <div className="navbar-collapse collapse justify-content-center" id="navbarDefault">
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a className={`nav-link js-scroll ${this.state.activeSection === 'home' ? 'active' : ''}`} href="#home">
@@ -165,6 +159,11 @@ class Navbar extends React.Component {
               <li className="nav-item">
                 <a className={`nav-link js-scroll ${this.state.activeSection === 'experience' ? 'active' : ''}`} href="#experience">
                   Experience
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className={`nav-link js-scroll ${this.state.activeSection === 'projects' ? 'active' : ''}`} href="#projects">
+                  Projects
                 </a>
               </li>
               <li className="nav-item">

@@ -10,44 +10,55 @@ class WhatIDo extends React.Component {
               <div className="box-shadow-full">
                 <div className="row">
                   <div className="col-md-12">
-                    <div className="title-box-2 text-center">
-                      <h5 className="title-left text-center">What I Do</h5>
+                    <div className="title-box-2">
+                      <h5 className="title-left">What I Do</h5>
                     </div>
                     <div className="what-i-do-content">
-                      <div className="service-item mb-4">
-                        <h4 className="text-center">Content Creation</h4>
-                        <p className="service-description text-center">
-                          • Developing engaging and strategic content for social media platforms<br />
-                          • Creating compelling blog posts and articles that drive traffic<br />
-                          • Designing visually appealing marketing materials<br />
-                          • Producing video content for various digital channels
-                        </p>
-                      </div>
-                      <div className="service-item mb-4">
-                        <h4 className="text-center">Social Media Management</h4>
-                        <p className="service-description text-center">
-                          • Managing and growing social media presence across platforms<br />
-                          • Developing content calendars and scheduling strategies<br />
-                          • Analyzing metrics and optimizing performance<br />
-                          • Building and engaging with online communities
-                        </p>
-                      </div>
-                      <div className="service-item mb-4">
-                        <h4 className="text-center">Digital Marketing</h4>
-                        <p className="service-description text-center">
-                          • Creating comprehensive digital marketing strategies<br />
-                          • Implementing SEO best practices for better visibility<br />
-                          • Managing email marketing campaigns<br />
-                          • Tracking and analyzing campaign performance
-                        </p>
-                      </div>
                       <div className="service-item">
-                        <h4 className="text-center">Creative Direction & Automation</h4>
-                        <p className="service-description text-center">
-                          • Providing creative direction for brands and campaigns<br />
-                          • Implementing automation solutions for marketing processes<br />
-                          • Streamlining content creation and delivery<br />
-                          • Developing efficient workflows and systems
+                        <h4>Content Creation & Design</h4>
+                        <p className="service-description">
+                          Crafting engaging visuals and content that resonate with your audience:
+                          <br /><br />
+                          • Brand identity and visual design<br />
+                          • Social media content creation<br />
+                          • Marketing materials design<br />
+                          • Photo and video editing
+                        </p>
+                      </div>
+
+                      <div className="service-item">
+                        <h4>Digital Marketing</h4>
+                        <p className="service-description">
+                          Comprehensive digital strategies for business growth:
+                          <br /><br />
+                          • SEO and website optimization<br />
+                          • Email marketing campaigns<br />
+                          • Social media advertising<br />
+                          • Analytics and reporting
+                        </p>
+                      </div>
+
+                      <div className="service-item">
+                        <h4>Social Media Management</h4>
+                        <p className="service-description">
+                          Building and managing your social presence:
+                          <br /><br />
+                          • Content strategy and planning<br />
+                          • Community engagement<br />
+                          • Platform optimization<br />
+                          • Performance tracking
+                        </p>
+                      </div>
+
+                      <div className="service-item">
+                        <h4>Creative Direction</h4>
+                        <p className="service-description">
+                          Leading creative initiatives and innovation:
+                          <br /><br />
+                          • Brand strategy development<br />
+                          • Campaign conceptualization<br />
+                          • Marketing automation<br />
+                          • Team leadership
                         </p>
                       </div>
                     </div>
@@ -62,4 +73,4 @@ class WhatIDo extends React.Component {
   }
 }
 
-export default WhatIDo; 
+export default WhatIDo;

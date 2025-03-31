@@ -25,6 +25,7 @@ import Intro from './components/intro.jsx';
 import About from './components/about.jsx';
 import Education from './components/education.jsx';
 import Experience from './components/experience.jsx';
+import Projects from './components/projects.jsx';
 import WhatIDo from './components/what-i-do.jsx';
 import Contact from './components/contact.jsx';
 import BackToTop from './components/back-top.jsx';
@@ -37,6 +38,7 @@ ReactDOM.render(
         <About />
         <Education />
         <Experience />
+        <Projects />
         <WhatIDo />
         <Contact />
         <BackToTop />
@@ -44,7 +46,4 @@ ReactDOM.render(
     </React.Fragment>,
 document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
